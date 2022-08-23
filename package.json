@@ -1,0 +1,29 @@
+{
+  "name": "db_connect",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mariadb": "^3.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "promisify-child-process": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suranecz/practice-node-DB_Connect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suranecz/practice-node-DB_Connect/issues"
+  },
+  "homepage": "https://github.com/suranecz/practice-node-DB_Connect#readme"
+}
